@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={`${process.env.REACT_APP_CONTENT_HOST}${logo}`} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          I am Micro Frontend 2.
         </p>
         <a
           className="App-link"

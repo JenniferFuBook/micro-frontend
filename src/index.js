@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // render micro frontend function
-window.rendercreatereactapp = (containerId, history) => {
+window.rendercreatereactapp2 = (containerId, history) => {
   ReactDOM.render(
     <App history={history}/>,
     document.getElementById(containerId)
@@ -14,12 +14,12 @@ window.rendercreatereactapp = (containerId, history) => {
 };
 
 // unmount micro frontend function
-window.unmountcreatereactapp = containerId => {
+window.unmountcreatereactapp2 = containerId => {
   ReactDOM.unmountComponentAtNode(document.getElementById(containerId));
 };
 
 // Mount to root if it is not a micro frontend
-if (!document.getElementById('createreactapp-container')) {
+if (!document.getElementById('createreactapp2-container')) {
   ReactDOM.render(<App />, document.getElementById('root'));
 }
 
